@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.status(400).json({ message: "Welcome to admission portal" })
 })
 app.get("/err", (req, res) => {
-    next(new AppError("kknkj"))
+    next(new AppError("Error"))
 })
 app.use(errorHandler)
 app.listen(5000, () => {
