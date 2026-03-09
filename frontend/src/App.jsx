@@ -4,7 +4,9 @@ import Home from './components/Home';
 
 function App() {
   return (
-   <p>Hi</p>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
 
   );
 }
