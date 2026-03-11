@@ -1,0 +1,21 @@
+{
+    "program": {
+        "ug": [
+            "B.E. Computer Science and Engineering",
+            "B.E. Electronics and Communication Engineering",
+            "B.E. Electrical and Electronics Engineering",
+            "B.E. Mechanical Engineering",
+            "B.E. Civil Engineering",
+            "B.Tech. Information Technology",
+            "B.Tech. Artificial Intelligence and Data Science",
+            "B.E. Electronics and Instrumentation Engineering",
+            "B.E. Automobile Engineering",
+            "B.E. Computer Science and Engineering (Cyber Security)"
+        ],
+        "pg": [
+            "M.E. Computer Science and Engineering",
+            "M.E. Power System Engineering",
+            "MBA. Master of Business Administration"
+        ]
+    }
+}
