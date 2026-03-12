@@ -1,7 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+<<<<<<< Updated upstream
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+=======
+    background-color: white;
+}
+>>>>>>> Stashed changes

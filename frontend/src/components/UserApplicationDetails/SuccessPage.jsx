@@ -1,2 +1,0 @@
-
-<h1>YOUR RESPONSE IS SAVED</h1>

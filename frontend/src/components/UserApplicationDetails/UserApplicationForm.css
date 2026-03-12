@@ -1,0 +1,305 @@
+body{
+font-family: Arial;
+background:#eef2f7;
+margin:0;
+}
+
+.container{
+width:100%;
+max-width:1200px;
+margin:auto;
+}
+
+
+.header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+background:white;
+padding:15px 25px;
+
+border-radius:12px;
+margin-bottom:30px;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.portal-title{
+font-size:26px;
+font-weight:700;
+text-align:center;
+flex:1;
+}
+
+.header-left img{
+height:70px;
+}
+
+.header-right{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.header-right img{
+height:45px;
+object-fit:contain;
+}
+
+@media (max-width:900px){
+
+.header{
+flex-direction:column;
+gap:10px;
+}
+
+.portal-title{
+font-size:20px;
+}
+
+.header-right{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.header-right img{
+height:35px;
+}
+
+.header-left img{
+height:60px;
+}
+
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+margin-bottom:25px;
+gap:20px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+z-index: 2;
+}
+
+.card h2{
+text-align:center;
+z-index: 2;
+margin-bottom:25px;
+}
+
+.grid3{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+z-index: 100;
+margin-bottom:20px;
+}
+
+.grid4{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+z-index: 2;
+margin-top:20px;
+}
+
+input,select{
+width:95%;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+z-index: 100;
+}
+
+.academicOptions{
+display:flex;
+gap:25px;
+margin:20px 0;
+flex-wrap:wrap;
+}
+
+.academicOptions label{
+display:flex;
+align-items:center;
+gap:8px;
+font-weight:500;
+}
+
+.academicBox{
+background:#f3f3f3;
+padding:20px;
+border-radius:10px;
+margin-top:15px;
+}
+
+.addBtn{
+margin-top:15px;
+padding:8px 18px;
+background:#3f51e0;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.addBtn:hover{
+background:#2e3dc7;
+}
+
+.radio{
+display:flex;
+gap:15px;
+margin-top:10px;
+}
+
+.upload{
+border:1px dashed #ccc;
+padding:15px;
+border-radius:8px;
+}
+
+.declaration{
+margin-top:20px;
+background:#f5f5f5;
+padding:20px;
+border-radius:10px;
+}
+
+.submitBtn{
+margin-top:20px;
+background:#3a57e8;
+color:white;
+padding:12px 30px;
+border:none;
+border-radius:6px;
+float:right;
+cursor:pointer;
+}
+
+.submitBtn:hover{
+background:#1e3ed8;
+}
+
+.check{
+margin:15px 0;
+display:block;
+}
+
+.declarationBox{
+background:#f2f2f2;
+padding:20px;
+border-radius:10px;
+margin-top:20px;
+}
+
+.declarationText{
+margin-bottom:15px;
+line-height:1.5;
+}
+
+.declarationRow{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.agreeLabel{
+display:flex;
+align-items:center;
+gap:10px;
+white-space:nowrap;
+font-size:15px;
+}
+
+.submitBtn{
+background:#3f51e0;
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.submitBtn:disabled{
+background:#bcbcbc;
+cursor:not-allowed;
+}
+
+/* Extras */
+.card{
+position: relative;
+overflow: hidden;
+z-index: 1;
+
+/* background */
+background: whitesmoke;
+
+/* glass effect */
+backdrop-filter: blur(12px);
+-webkit-backdrop-filter: blur(12px);
+
+/* spacing */
+padding: 35px;
+margin: 30px 0;
+
+/* shape */
+border-radius: 15px;
+border: 1px solid rgba(255, 200, 120, 0.35);
+
+/* shadow */
+/* box-shadow:
+0 8px 32px rgba(255, 170, 60, 0.25),
+inset 0 0 10px rgba(255,255,255,0.25);
+} */
+}
+.upload{
+background: white;
+backdrop-filter: blur(10px);
+border: 1px dashed rgba(255,180,80,0.45);
+
+border-radius: 12px;
+padding: 18px;
+text-align:center;
+
+transition: 0.3s ease;
+}
+
+.upload:hover{
+background: rgba(255,180,60,0.25);
+transform: translateY(-3px);
+box-shadow: 0 6px 18px rgba(255,160,40,0.35);
+}
+
+.declarationBox{
+background: white;
+backdrop-filter: blur(10px);
+
+border-radius: 12px;
+border:1px solid rgba(255,200,120,0.35);
+
+padding:20px;
+margin-top:20px;
+}
+
+.submitBtn{
+background: linear-gradient(135deg,#ff9f2e,#ffb347);
+color:white;
+border:none;
+padding:10px 25px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.submitBtn::before{
+transform:translateY(-2px);
+
+}
+
+.submitBtn:active{
+    color: black;
+    transform: translateY(-2px);
+}
+
