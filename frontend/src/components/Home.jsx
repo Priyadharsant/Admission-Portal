@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'
+
 function Home() {
 
     const [data, setData] = useState("");
@@ -12,7 +13,10 @@ function Home() {
         .catch(error => {
             console.error("Error:", error);
         });
-    return <h1>{data}</h1>
+    return <>
+       
+    
+    </>
 }
 
 
