@@ -6,7 +6,6 @@ module.exports = {
     "Application Started",
     "Documents Pending",
     "Applied",
-    "Visa Process",
     "Closed"
   ]
 };
