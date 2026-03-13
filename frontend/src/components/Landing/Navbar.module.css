@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+
+    align-items: center;
+
+    padding: 10px 30px;
+    background: white;
+    border-bottom: 3px solid #e5a100;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* LEFT */
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* LOGO */
+
+.logo {
+    width: 55px;
+}
+.logoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* COLLEGE TEXT */
+.collegeText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collegeText h1 {
+    font-size: 20px;
+    color: #7a3b00;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.collegeText p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* CENTER TITLE */
+
+.centerTitle {
+    text-align: center;
+    padding-left:25px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #7a3b00;
+    letter-spacing: 3px;
+}
+
+/* RIGHT ACCREDITATION */
+
+.extraImages {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.extraImages img {
+    width: 55px;
+    height: auto;
+}
+
+.centerTitle {
+    flex-grow: 1;
+}
+
+/* -------------------- */
+/* TABLET */
+/* -------------------- */
+
+@media (max-width:1024px) {
+
+    .logo {
+        width: 50px;
+    }
+
+    .extraImages img {
+        width: 45px;
+    }
+
+    .centerTitle {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding: 8px;
+    }
+     .leftSection {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        width: 100%;
+
+    }
+}
+
+/* -------------------- */
+/* MOBILE */
+/* -------------------- */
+
+@media (max-width:480px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding: 8px;
+    }
+
+    /* top row */
+
+    .leftSection {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .extraImages {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 32px;
+    }
+
+    .collegeText h1 {
+        font-size: 13px;
+    }
+
+    .collegeText p {
+        font-size: 8px;
+    }
+
+    .extraImages img {
+        width: 38px;
+    }
+
+    /* title below */
+
+    .centerTitle {
+        font-size: 16px;
+    }
+
+}
