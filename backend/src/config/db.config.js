@@ -72,6 +72,10 @@ async function getLeadsCredentialCollection() {
     const db = await getLeadDb();
     return db.collection("lead_credentials");
 }
+async function getCollegeCollection(collectionName) {
+    const db = await getAdminDb();
+    return db.collection('college_details');
+}
 
 
-module.exports = { connectToDatabase, getCollection, getAdminDb, getLeadDb, getAnalyticsDb, getApplicationsCollection, getLeadsCredentialCollection };
+module.exports = { connectToDatabase, getCollection, getAdminDb, getLeadDb, getAnalyticsDb, getApplicationsCollection, getLeadsCredentialCollection ,getCollegeCollection};
