@@ -1,0 +1,131 @@
+{
+    "application_no": "VEC/2026-2027/6635",
+    "data": {
+        "name": "Priya Dharsan T",
+        "photo_path": "",
+        "program_details": {
+            "program": "ug",
+            "course_prefrence_1": "",
+            "course_prefrence_2": "",
+            "course_prefrence_3": "",
+            "lateral_entry": false,
+            "college": "vec [if lateral_entry]"
+        },
+        "cutoff": {
+            "maths": "98",
+            "physics": "89",
+            "chemistry": "88"
+        },
+        "personal_details": {
+            "title": "Mr",
+            "first_name": "Priya Dharsan",
+            "last_name": "T",
+            "email": "priyan@gmail.com",
+            "phone_no": "1234567890",
+            "alternative_phone_no": "0987654321",
+            "gender": "male",
+            "dob": "16-07-2007",
+            "blood_group": "B+",
+            "religion": "hindu",
+            "nationality": "indian",
+            "category": "general",
+            "aadhaar_no": "not required",
+            "pan_no": "nnot_required"
+        },
+        "father_details": {
+            "title": "Mr",
+            "name": "Father",
+            "phone_no": "1234567890",
+            "email": "father@gmail.com",
+            "occupation": "farmer",
+            "income": "72000"
+        },
+        "mother_details": {
+            "title": "Mrs",
+            "name": "mother",
+            "phone_no": "1234567890",
+            "email": "mother@gmail.com",
+            "occupation": "farmer",
+            "income": "72000"
+        },
+        "gaurdian_details": {
+            "title": "Mr",
+            "name": "gaurdian",
+            "phone_no": "1234567890",
+            "email": "gaurdian@gmail.com",
+            "occupation": "farmer",
+            "income": "72000"
+        },
+        "address_details": {
+            "country": "india",
+            "state": "Tamil Nadu",
+            "district": "chennai",
+            "city": "chennai",
+            "address_line_1": "address_line_1",
+            "address_line_2": "address_line_2",
+            "pincode": "123654",
+            "is_permanent_address_same": "yes"
+        },
+        "permanent_details": {
+            "country": "india",
+            "state": "Tamil Nadu",
+            "district": "chennai",
+            "city": "chennai",
+            "address_line_1": "address_line_1",
+            "address_line_2": "address_line_2",
+            "pincode": "123654",
+            "is_permanent_address_same": "yes"
+        },
+        "class_x": {
+            "class": "ssc",
+            "board": "tamil nadu",
+            "passing_year": "2024",
+            "marking_scheme": "percentage/cgpa",
+            "percentage/cgpa": "76"
+        },
+        "class_xii": {
+            "class": "hsc",
+            "board": "tamil nadu",
+            "result_status": "awaited",
+            "passing_year": "2026",
+            "marking_scheme": "percentage/cgpa",
+            "percentage/cgpa": "76"
+        },
+        "diploma": {
+            "institute": "institute",
+            "board/unversity": "board/unversity",
+            "result_status": "awaited",
+            "passing_year": "2026",
+            "marking_scheme": "percentage/cgpa",
+            "percentage/cgpa": "76"
+        },
+        "graduation_details": {
+            "university": "university",
+            "degree": "b.tech",
+            "result_status": "awaited",
+            "passing_year": "2026",
+            "marking_scheme": "percentage/cgpa",
+            "percentage/cgpa": "76"
+        },
+        "entrance_exam": "no",
+        "entrance_exam_details": {
+            "name_of_exam": "JEE",
+            "passing_year": "2026",
+            "obtained_percentage": "78",
+            "rank_obtained": "1"
+        },
+        "documents_details": {
+            "aadhaar_card": "",
+            "class_x": "",
+            "class_xii": "",
+            "graduation_marksheet": "",
+            "diploma_marksheet": "",
+            "entrance_marksheet": "",
+            "work_experience_certificate": ""
+        },
+        "declaration_details": {
+            "declaration": "I hereby declare that the above information is true and complete to the best of my knowledge. I am aware that if any information herein is found to be incorrect or incomplete at any stage of admission process, my application form will be rejected and my claim for this admission will be forfeited.",
+            "date": "02/06/2026"
+        }
+    }
+}

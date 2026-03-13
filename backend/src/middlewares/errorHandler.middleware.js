@@ -17,16 +17,14 @@ const errorHandler = (err, req, res, next) => {
 
   // default status
   let statusCode = err.statusCode || 500;
+
   let message = err.message || "Internal Server Error";
   console.log("┌──────────────────── ERROR ────────────────────┐");
-
   console.log("│ERROR : ", message);
   console.log("│FILE  : ", file);
   console.log("│LINE  : ", line);
   console.log("│PATH  : ", path.join(process.cwd(), file || ""));
   console.log("│API   : ", req.method, req.originalUrl);
-
-  ``
   console.log("└───────────────────────────────────────────────┘");
 
 
@@ -34,7 +32,7 @@ const errorHandler = (err, req, res, next) => {
     return res.status(statusCode).json(JSON.parse(message));
   }
 
-  res.status(200).json({
+  res.status(statusCode).json({
     success: false,
     message,
   });
