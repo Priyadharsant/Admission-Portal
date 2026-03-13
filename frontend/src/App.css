@@ -1,42 +1,140 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+  
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+height:50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-buttons button{
+margin-left:10px;
+padding:10px 18px;
+border:none;
+border-radius:6px;
+cursor:pointer;
 }
 
-.card {
-  padding: 2em;
+.register{
+background:#ff7a00;
+color:white;
 }
 
-.read-the-docs {
-  color: #888;
+.login{
+background:#eee;
+}
+
+.form-section{
+background:#0e6b8f;
+padding:80px 0;
+}
+
+.form-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:60px;
+}
+
+.form-card{
+background:white;
+padding:30px;
+border-radius:12px;
+width:350px;
+}
+
+.form-card input,
+.form-card select{
+width:100%;
+margin-bottom:12px;
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.submit-btn{
+background:#ff7a00;
+color:white;
+border:none;
+padding:12px;
+width:100%;
+border-radius:6px;
+}
+
+.side-image{
+width:400px;
+}
+
+.steps{
+padding:60px;
+text-align:center;
+}
+
+.step-container{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.step-card{
+padding:30px;
+width:180px;
+border-radius:12px;
+color:white;
+}
+
+.card0{background:#ff6b6b;}
+.card1{background:#4ecdc4;}
+.card2{background:#ffbe0b;}
+.card3{background:#8338ec;}
+.card4{background:#3a86ff;}
+
+.instructions{
+background:#f4f4f4;
+padding:80px;
+}
+
+.instruction-container{
+display:flex;
+align-items:center;
+gap:50px;
+}
+
+.instruction-image img{
+width:350px;
+}
+
+.instruction-text ul{
+margin-top:20px;
+line-height:2;
+}
+
+@media(max-width:900px){
+
+.form-container{
+flex-direction:column;
+}
+
+.side-image{
+width:280px;
+}
+
+.instruction-container{
+flex-direction:column;
+text-align:center;
+}
+
 }

@@ -1,0 +1,139 @@
+.instructions{
+  padding:80px 8%;
+  background:linear-gradient(135deg,#fff8e1,#fff3c4);
+  font-family:"Poppins",sans-serif;
+}
+
+/* Header */
+
+.instructionsHeader{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+.instructionsHeader h2{
+  font-size:36px;
+  font-weight:700;
+}
+
+.instructionsHeader p{
+  margin-top:10px;
+  font-size:16px;
+  color:#666;
+}
+
+/* Container */
+
+.instructionsContainer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:60px;
+  flex-wrap:wrap;
+}
+
+/* Illustration */
+
+.instructionsImage img{
+  width:500px;
+  max-width:100%;
+}
+
+/* Card */
+
+.instructionsCard{
+  background:white;
+  padding:40px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  max-width:520px;
+  transition:0.3s;
+}
+
+.instructionsCard:hover{
+  transform:translateY(-5px);
+}
+
+/* List */
+
+.instructionsCard ul{
+  list-style:none;
+  padding:0;
+  margin-bottom:30px;
+}
+
+.instructionsCard li{
+  position:relative;
+  padding-left:28px;
+  margin-bottom:18px;
+  color:#444;
+  line-height:1.6;
+}
+
+.instructionsCard li::before{
+  content:"✔";
+  position:absolute;
+  left:0;
+  top:0;
+  color:#f4b400;
+  font-weight:bold;
+}
+
+/* Steps */
+
+.instructionSteps{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.step{
+  display:flex;
+  align-items:center;
+  gap:5px;
+  background:#fff8e1;
+  padding:14px 16px;
+  border-radius:8px;
+  font-size:15px;
+  transition:0.3s;
+}
+
+.step:hover{
+  background:#ffe082;
+  transform:translateX(5px);
+}
+
+.step span{
+  width:28px;
+  height:28px;
+  min-width:28px;
+  min-height:28px;
+  background:#f4b400;
+  color:white;
+  font-weight:600;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:14px;
+  flex-shrink:0;
+}
+
+/* Responsive */
+
+@media (max-width:900px){
+
+  .instructionsContainer{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .instructionsCard{
+    padding:30px;
+  }
+
+  .step{
+    gap:10px;
+  }
+
+}
